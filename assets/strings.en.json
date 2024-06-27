@@ -453,7 +453,7 @@
 
     "panel.wallet.header.title": "Wallet",
     "panel.wallet.offline.label": "The Wallet is not available while offline.",
-    "panel.wallet.logged_out.label": "To access the Wallet, you need to sign in with your NetID and set your privacy level to 4 or 5 under Profile.",
+    "panel.wallet.logged_out.label": "To access the Wallet, you need to sign in with your NetID under Profile and set your privacy level to 4 or 5 under Settings.",
     "panel.wallet.content_type.illini_id.label": "Illini ID",
     "panel.wallet.content_type.illini_id_faqs.label": "Illini ID FAQs",
     "panel.wallet.content_type.bus_pass.label": "Bus Pass",
@@ -900,7 +900,7 @@
     "panel.onboarding2.dialog.learn_more.button.privacy_policy.title": "Privacy notice ",
     "panel.onboarding2.panel.privacy_notice.heading.title": "Privacy notice",
 
-    "panel.onboarding2.phone_or_email_statement.title.text": "Sign in by phone or email",
+    "panel.onboarding2.phone_or_email_statement.title.text": "Sign in with phone or email",
     "panel.onboarding2.phone_or_email_statement.title.hint": "",
     "panel.onboarding2.phone_or_email_statement.description": "This saves your preferences so you can have the same experience on more than one device.",
     "panel.onboarding2.phone_or_email_statement.continue.title": "Continue",
@@ -911,7 +911,7 @@
     "panel.onboarding2.phone_or_email.title.text": "Sign in with phone or email",
     "panel.onboarding2.phone_or_email.phone.title.text": "Add a phone number",
     "panel.onboarding2.phone_or_email.email.title.text": "Add an email address",
-    "panel.onboarding2.phone_or_email.description": "Please enter your phone number and we will send you a verification code. Or, you can enter your email address to sign in by email.",
+    "panel.onboarding2.phone_or_email.description": "Please enter your phone number and we will send you a verification code. Or, you can enter your email address to sign in.",
     "panel.onboarding2.phone_or_email.phone.description": "Please enter your phone number and we will send you a verification code.",
     "panel.onboarding2.phone_or_email.email.description": "Please enter your email address and we will send you a verification email.",
     "panel.onboarding2.phone_or_email.phone_or_email.text": "Phone Number or Email Address:",
@@ -1444,7 +1444,7 @@
     "panel.event2.detail.linked_events.recurrence.failed.message": "Failed to load available times.",
     "panel.event2.detail.linked_events.recurrence.empty.message": "There are no upcoming available times.",
     "panel.event2.detail.register.succeeded": "You're registered!",
-    "panel.event2.detail.register.succeeded.star.prompt": "You're registered! Would vou like to add this event to <span style='color:{{star_color}};'><b>\u2605</b></span> My Events?",
+    "panel.event2.detail.register.succeeded.star.prompt": "You're registered! Would you like to add this event to <span style='color:{{star_color}};'><b>\u2605</b></span> My Events?",
     "panel.event2.detail.unregister.succeeded": "You are no longer registered for this event.",
 
     "panel.event2.detail.take_attendance.title": "Take Attendance",
@@ -3568,7 +3568,7 @@
     "widget.home.inbox.text.empty.unread.description": "You have no unread notifications. <a href='{{local_url}}'><b>View all notifications</b></а>.",
     "widget.home.inbox.text.failed.description": "Failed to load notifications.",
     "widget.home.inbox.text.offline": "Notifications are not available while offline.",
-    "widget.home.inbox.text.logged_out": "You need to be signed in to access Notifications. Set your privacy level to 4 or 5 under Settings. Then find the sign-in prompt under Profile.",
+    "widget.home.inbox.text.logged_out": "To access Notifications, you need to sign in with your NetID under Profile and set your privacy level to 4 or 5 under Settings.",
     "widget.home.inbox.button.all.title": "View All",
     "widget.home.inbox.button.all.hint": "Tap to view all notifications",
 
@@ -3687,7 +3687,7 @@
     "widget.home.student_courses.header.label": "My Courses",
     "widget.home.student_courses.text.empty.description": "You do not appear to be enrolled in any courses for the selected term.",
     "widget.home.student_courses.text.offline.description": "My Courses is not available while offline.",
-    "widget.home.student_courses.text.logged_out.description": "You need to be signed in with your NetID to access My Courses. Set your privacy level to 4 or 5 under Settings. Then find the sign-in prompt under Profile.",
+    "widget.home.student_courses.text.logged_out.description": "To access My Courses, you need to sign in with your NetID under Profile and set your privacy level to 4 or 5 under Settings.",
     "widget.home.student_courses.text.failed.description": "You do not appear to be registered for any courses for the selected term.",
     "widget.home.student_courses.button.all.title": "View All",
     "widget.home.student_courses.button.all.hint": "Tap to view all courses",
@@ -3840,8 +3840,8 @@
     "widget.checklist.uiuc.title": "New Student Checklist",
     "widget.checklist.gies.offline": "iDegrees New Student Checklist is not available while offline.",
     "widget.checklist.uiuc.offline": "New Student Checklist is not available while offline.",
-    "widget.checklist.gies.logged_out": "You need to be signed in with your NetID to access the iDegrees New Student Checklist. Set your privacy level to 4 or 5 under Settings. Then find the sign-in prompt under Profile.",
-    "widget.checklist.uiuc.logged_out": "You need to be signed in with your NetID to access the New Student Checklist. Set your privacy level to 4 or 5 under Settings. Then find the sign-in prompt under Profile.",
+    "widget.checklist.gies.logged_out": "To access the iDegrees New Student Checklist, you need to sign in with your NetID under Profile and set your privacy level to 4 or 5 under Settings.",
+    "widget.checklist.uiuc.logged_out": "To access the New Student Checklist, you need to sign in with your NetID under Profile and set your privacy level to 4 or 5 under Settings.",
 
     "widget.home.app_help.header.title": "App Help",
     "widget.home.app_help.text.empty.description": "Tap the \u2606 on items in App Help for quick access here.",
@@ -4192,5 +4192,5 @@
     "privacy.entry.general.notifications.data_usage": "Research participation and the Due Date Catalog require a university sign-in. Your answers to the research interest form are used to qualify you to participate in research projects.",
     "privacy.entry.general.sharing.title": "Sharing",
     "privacy.entry.general.sharing.description": "You may receive notifications about content updates, research project qualification, appointments, and group membership. You can star various content and create groups.",
-    "privacy.entry.general.sharing.data_usage": "Research participation and Due Date Catalog require a university sign-in. Your answers to the research interest form are used to qualify you to participate in research projects."
+    "privacy.entry.general.sharing.data_usage": "Research participation and the Due Date Catalog require a university sign-in. Your answers to the research interest form are used to qualify you to participate in research projects."
 }
